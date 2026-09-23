@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/text_import_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Importar via JSON"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_import_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instruções:\nCopie o conteúdo JSON de um backup anterior e cole no campo abaixo. Clique em 'Enviar JSON' para restaurar os dados."
+        android:textColor="#888888"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edit_import_json"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:background="#1E1E1E"
+        android:gravity="top"
+        android:hint="Cole seu JSON aqui..."
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:textSize="12sp"
+        android:fontFamily="monospace" />
+
+    <Button
+        android:id="@+id/btn_json_example"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:text="Ver exemplo de JSON"
+        android:textColor="#2196F3" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AppFinancas" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorSurface">@color/dark_card</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorControlActivated">@color/purple_primary</item>
+    </style>
+</resources>
